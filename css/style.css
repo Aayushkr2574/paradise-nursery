@@ -1,0 +1,26 @@
+body.landing {
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  text-align: center;
+  padding: 100px;
+  color: white;
+}
+
+header {
+  background: lightgreen;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+button:disabled {
+  background: gray;
+}

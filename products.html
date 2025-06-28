@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Plants - Paradise Nursery</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h2>Paradise Nursery</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart 🛒 (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <h1>Our Houseplants</h1>
+
+  <section id="categories">
+    <h3>Indoor Plants</h3>
+    <div class="product" id="plant1">
+      <img src="images/plant1.jpg" alt="Peace Lily">
+      <h4>Peace Lily</h4>
+      <p>$15</p>
+      <button onclick="addProduct('plant1', this)">Add to Cart</button>
+    </div>
+    <div class="product" id="plant2">
+      <img src="images/plant2.jpg" alt="Snake Plant">
+      <h4>Snake Plant</h4>
+      <p>$18</p>
+      <button onclick="addProduct('plant2', this)">Add to Cart</button>
+    </div>
+
+    <h3>Succulents</h3>
+    <div class="product" id="plant3">
+      <img src="images/plant3.jpg" alt="Aloe Vera">
+      <h4>Aloe Vera</h4>
+      <p>$12</p>
+      <button onclick="addProduct('plant3', this)">Add to Cart</button>
+    </div>
+    <div class="product" id="plant4">
+      <img src="images/plant4.jpg" alt="Echeveria">
+      <h4>Echeveria</h4>
+      <p>$10</p>
+      <button onclick="addProduct('plant4', this)">Add to Cart</button>
+    </div>
+
+    <h3>Hanging Plants</h3>
+    <div class="product" id="plant5">
+      <img src="images/plant5.jpg" alt="English Ivy">
+      <h4>English Ivy</h4>
+      <p>$20</p>
+      <button onclick="addProduct('plant5', this)">Add to Cart</button>
+    </div>
+    <div class="product" id="plant6">
+      <img src="images/plant6.jpg" alt="Pothos">
+      <h4>Pothos</h4>
+      <p>$17</p>
+      <button onclick="addProduct('plant6', this)">Add to Cart</button>
+    </div>
+  </section>
+
+  <script src="js/store.js"></script>
+  <script src="js/products.js"></script>
+</body>
+</html>

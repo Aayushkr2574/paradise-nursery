@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart - Paradise Nursery</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h2>Paradise Nursery</h2>
+    <nav>
+      <a href="products.html">Shop</a>
+      <a href="cart.html">Cart 🛒 (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <h1>Your Shopping Cart</h1>
+  <div id="cart-items"></div>
+
+  <p>Total Items: <span id="total-items">0</span></p>
+  <p>Total Cost: $<span id="total-cost">0.00</span></p>
+
+  <button onclick="window.location.href='products.html'">Continue Shopping</button>
+  <button onclick="alert('Checkout coming soon!')">Checkout</button>
+
+  <script src="js/store.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>
