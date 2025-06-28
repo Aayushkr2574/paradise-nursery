@@ -1,4 +1,4 @@
-🌿 Paradise Nursery - Houseplant Shopping App
+#🌿 Paradise Nursery - Houseplant Shopping App
 Welcome to the Paradise Nursery Shopping Application! This project is a simple front-end web application that allows users to browse a variety of houseplants, add them to a shopping cart, and manage their purchases.
 
 🛠️ Features
